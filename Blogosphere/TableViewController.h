@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  Blogosphere
 //
 //  Created by Cotten Blackwell on 10/15/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TableViewController : UITableViewController
 
+@property (nonatomic, strong) NSMutableArray *blogPosts;
 
 @end
-
