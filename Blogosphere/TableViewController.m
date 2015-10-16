@@ -93,6 +93,12 @@
     return cell;
 }
 
+#pragma mark - Table view delegate
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    //NSLog(@"Row selected:  %ld", (long)indexPath.row);
+}
+
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NSLog(@"preparing for segue: %@",segue.identifier);
     
